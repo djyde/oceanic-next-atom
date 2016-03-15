@@ -1,5 +1,6 @@
 // Colors
 
+@base: #132025;
 @base00: #1B2B34;
 @base01: #343D46;
 @base02: #4F5B66;
@@ -68,13 +69,13 @@
 @button-background-color-selected: #5c6064;
 @button-border-color: @base-border-color;
 
-@tab-bar-background-color: #222;
-@tab-bar-border-color: darken(@tab-background-color-active, 10%);
-@tab-background-color: #333;
-@tab-background-color-active: #222;
+@tab-bar-background-color: @base00;
+@tab-bar-border-color: @base00;
+@tab-background-color: @base00;
+@tab-background-color-active: @base00;
 @tab-border-color: #484848;
 
-@tree-view-background-color: @base00;
+@tree-view-background-color: @base;
 @tree-view-border-color: @tool-panel-border-color;
 
 @scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
