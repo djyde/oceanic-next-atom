@@ -9,8 +9,8 @@
 @tab-max-width: 160px;
 
 .tab-bar {
-  height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
-  background: @tab-bar-background-color;
+  height: @tab-height;
+  background: @base;
   box-shadow: inset 0 -8px 8px -4px rgba(0,0,0, .15);
   // padding: 0 10px 0 25px;
   overflow-x: auto;
@@ -76,6 +76,7 @@
     // }
 
     .close-icon {
+      top: 0;
       right: 0;
       z-index: 3;
       text-align: right;
@@ -118,7 +119,7 @@
     }
 
     &, &:before, &:after {
-      background-color: @base;
+      background-color: @base00;
       height: @tab-height + 1px;
     }
   }
