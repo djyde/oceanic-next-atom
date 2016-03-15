@@ -1,0 +1,11 @@
+{
+  "name": "oceanic-next-ui",
+  "theme": "ui",
+  "version": "0.0.1",
+  "description": "Oceanic Next theme for Atom",
+  "license": "MIT",
+  "repository": "https://github.com/djyde/oceanic-next-atom",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
